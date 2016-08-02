@@ -27,7 +27,7 @@ Wii リモコンをC#から。
                     };
                     remocon.OpenDevice();
                     remocon.ActivateMotionPlus();
-                    remoxon.SetLED(2 | 4);
+                    remocon.SetLED(2 | 4);
                     Console.ReadLine();
                 }
             }
